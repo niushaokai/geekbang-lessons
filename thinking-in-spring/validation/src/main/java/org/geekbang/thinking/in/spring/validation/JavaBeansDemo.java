@@ -46,6 +46,7 @@ public class JavaBeansDemo {
                     System.out.println(propertyDescriptor);
                 });
 
+        System.out.println("----------------------------------------------------");
         // 输出 User 定义的方法 MethodDescriptor
         Stream.of(beanInfo.getMethodDescriptors()).forEach(System.out::println);
 
